@@ -1,0 +1,183 @@
+<?xml version="1.0" encoding="utf-8"?>
+<definitions xmlns:tns="urn:microsoft-dynamics-schemas/codeunit/AutoPostDocument" targetNamespace="urn:microsoft-dynamics-schemas/codeunit/AutoPostDocument" xmlns="http://schemas.xmlsoap.org/wsdl/">
+  <types>
+    <schema elementFormDefault="qualified" targetNamespace="urn:microsoft-dynamics-schemas/codeunit/AutoPostDocument" xmlns="http://www.w3.org/2001/XMLSchema">
+      <element name="ReopenPurchaseOrder">
+        <complexType>
+          <sequence>
+            <element minOccurs="1" maxOccurs="1" name="purchaseOrderNo" type="string" />
+          </sequence>
+        </complexType>
+      </element>
+      <element name="ReopenPurchaseOrder_Result">
+        <complexType>
+          <sequence />
+        </complexType>
+      </element>
+      <element name="AutoPostPo">
+        <complexType>
+          <sequence>
+            <element minOccurs="1" maxOccurs="1" name="purchaseOrderNo" type="string" />
+            <element minOccurs="1" maxOccurs="1" name="rcv" type="boolean" />
+            <element minOccurs="1" maxOccurs="1" name="inv" type="boolean" />
+          </sequence>
+        </complexType>
+      </element>
+      <element name="AutoPostPo_Result">
+        <complexType>
+          <sequence />
+        </complexType>
+      </element>
+      <element name="PoPrepareDocAlpha">
+        <complexType>
+          <sequence>
+            <element minOccurs="1" maxOccurs="1" name="purchaseOrderNo" type="string" />
+            <element minOccurs="1" maxOccurs="1" name="receiveReq" type="boolean" />
+            <element minOccurs="1" maxOccurs="1" name="invReq" type="boolean" />
+          </sequence>
+        </complexType>
+      </element>
+      <element name="PoPrepareDocAlpha_Result">
+        <complexType>
+          <sequence />
+        </complexType>
+      </element>
+      <element name="RunAdjustCostReport">
+        <complexType>
+          <sequence>
+            <element minOccurs="1" maxOccurs="1" name="itemNoFilter" type="string" />
+            <element minOccurs="1" maxOccurs="1" name="itemCategoryFilter" type="string" />
+          </sequence>
+        </complexType>
+      </element>
+      <element name="RunAdjustCostReport_Result">
+        <complexType>
+          <sequence />
+        </complexType>
+      </element>
+      <element name="InsertPoGlLine">
+        <complexType>
+          <sequence>
+            <element minOccurs="1" maxOccurs="1" name="docNo" type="string" />
+            <element minOccurs="1" maxOccurs="1" name="itemNo" type="string" />
+            <element minOccurs="1" maxOccurs="1" name="itemDesc" type="string" />
+            <element minOccurs="1" maxOccurs="1" name="itemUnitCost" type="decimal" />
+            <element minOccurs="1" maxOccurs="1" name="itemQty" type="decimal" />
+          </sequence>
+        </complexType>
+      </element>
+      <element name="InsertPoGlLine_Result">
+        <complexType>
+          <sequence>
+            <element minOccurs="1" maxOccurs="1" name="return_value" type="int" />
+          </sequence>
+        </complexType>
+      </element>
+    </schema>
+  </types>
+  <message name="ReopenPurchaseOrder">
+    <part name="parameters" element="tns:ReopenPurchaseOrder" />
+  </message>
+  <message name="ReopenPurchaseOrder_Result">
+    <part name="parameters" element="tns:ReopenPurchaseOrder_Result" />
+  </message>
+  <message name="AutoPostPo">
+    <part name="parameters" element="tns:AutoPostPo" />
+  </message>
+  <message name="AutoPostPo_Result">
+    <part name="parameters" element="tns:AutoPostPo_Result" />
+  </message>
+  <message name="PoPrepareDocAlpha">
+    <part name="parameters" element="tns:PoPrepareDocAlpha" />
+  </message>
+  <message name="PoPrepareDocAlpha_Result">
+    <part name="parameters" element="tns:PoPrepareDocAlpha_Result" />
+  </message>
+  <message name="RunAdjustCostReport">
+    <part name="parameters" element="tns:RunAdjustCostReport" />
+  </message>
+  <message name="RunAdjustCostReport_Result">
+    <part name="parameters" element="tns:RunAdjustCostReport_Result" />
+  </message>
+  <message name="InsertPoGlLine">
+    <part name="parameters" element="tns:InsertPoGlLine" />
+  </message>
+  <message name="InsertPoGlLine_Result">
+    <part name="parameters" element="tns:InsertPoGlLine_Result" />
+  </message>
+  <portType name="AutoPostDocument_Port">
+    <operation name="ReopenPurchaseOrder">
+      <input name="ReopenPurchaseOrder" message="tns:ReopenPurchaseOrder" />
+      <output name="ReopenPurchaseOrder_Result" message="tns:ReopenPurchaseOrder_Result" />
+    </operation>
+    <operation name="AutoPostPo">
+      <input name="AutoPostPo" message="tns:AutoPostPo" />
+      <output name="AutoPostPo_Result" message="tns:AutoPostPo_Result" />
+    </operation>
+    <operation name="PoPrepareDocAlpha">
+      <input name="PoPrepareDocAlpha" message="tns:PoPrepareDocAlpha" />
+      <output name="PoPrepareDocAlpha_Result" message="tns:PoPrepareDocAlpha_Result" />
+    </operation>
+    <operation name="RunAdjustCostReport">
+      <input name="RunAdjustCostReport" message="tns:RunAdjustCostReport" />
+      <output name="RunAdjustCostReport_Result" message="tns:RunAdjustCostReport_Result" />
+    </operation>
+    <operation name="InsertPoGlLine">
+      <input name="InsertPoGlLine" message="tns:InsertPoGlLine" />
+      <output name="InsertPoGlLine_Result" message="tns:InsertPoGlLine_Result" />
+    </operation>
+  </portType>
+  <binding name="AutoPostDocument_Binding" type="tns:AutoPostDocument_Port">
+    <binding transport="http://schemas.xmlsoap.org/soap/http" xmlns="http://schemas.xmlsoap.org/wsdl/soap/" />
+    <operation name="ReopenPurchaseOrder">
+      <operation soapAction="urn:microsoft-dynamics-schemas/codeunit/AutoPostDocument:ReopenPurchaseOrder" style="document" xmlns="http://schemas.xmlsoap.org/wsdl/soap/" />
+      <input name="ReopenPurchaseOrder">
+        <body use="literal" xmlns="http://schemas.xmlsoap.org/wsdl/soap/" />
+      </input>
+      <output name="ReopenPurchaseOrder_Result">
+        <body use="literal" xmlns="http://schemas.xmlsoap.org/wsdl/soap/" />
+      </output>
+    </operation>
+    <operation name="AutoPostPo">
+      <operation soapAction="urn:microsoft-dynamics-schemas/codeunit/AutoPostDocument:AutoPostPo" style="document" xmlns="http://schemas.xmlsoap.org/wsdl/soap/" />
+      <input name="AutoPostPo">
+        <body use="literal" xmlns="http://schemas.xmlsoap.org/wsdl/soap/" />
+      </input>
+      <output name="AutoPostPo_Result">
+        <body use="literal" xmlns="http://schemas.xmlsoap.org/wsdl/soap/" />
+      </output>
+    </operation>
+    <operation name="PoPrepareDocAlpha">
+      <operation soapAction="urn:microsoft-dynamics-schemas/codeunit/AutoPostDocument:PoPrepareDocAlpha" style="document" xmlns="http://schemas.xmlsoap.org/wsdl/soap/" />
+      <input name="PoPrepareDocAlpha">
+        <body use="literal" xmlns="http://schemas.xmlsoap.org/wsdl/soap/" />
+      </input>
+      <output name="PoPrepareDocAlpha_Result">
+        <body use="literal" xmlns="http://schemas.xmlsoap.org/wsdl/soap/" />
+      </output>
+    </operation>
+    <operation name="RunAdjustCostReport">
+      <operation soapAction="urn:microsoft-dynamics-schemas/codeunit/AutoPostDocument:RunAdjustCostReport" style="document" xmlns="http://schemas.xmlsoap.org/wsdl/soap/" />
+      <input name="RunAdjustCostReport">
+        <body use="literal" xmlns="http://schemas.xmlsoap.org/wsdl/soap/" />
+      </input>
+      <output name="RunAdjustCostReport_Result">
+        <body use="literal" xmlns="http://schemas.xmlsoap.org/wsdl/soap/" />
+      </output>
+    </operation>
+    <operation name="InsertPoGlLine">
+      <operation soapAction="urn:microsoft-dynamics-schemas/codeunit/AutoPostDocument:InsertPoGlLine" style="document" xmlns="http://schemas.xmlsoap.org/wsdl/soap/" />
+      <input name="InsertPoGlLine">
+        <body use="literal" xmlns="http://schemas.xmlsoap.org/wsdl/soap/" />
+      </input>
+      <output name="InsertPoGlLine_Result">
+        <body use="literal" xmlns="http://schemas.xmlsoap.org/wsdl/soap/" />
+      </output>
+    </operation>
+  </binding>
+  <service name="AutoPostDocument">
+    <port name="AutoPostDocument_Port" binding="tns:AutoPostDocument_Binding">
+      <address location="http://172.16.25.80:7047/DynamicsNAV90/WS/Government%20Scientific%20Source/Codeunit/AutoPostDocument" xmlns="http://schemas.xmlsoap.org/wsdl/soap/" />
+    </port>
+  </service>
+</definitions>

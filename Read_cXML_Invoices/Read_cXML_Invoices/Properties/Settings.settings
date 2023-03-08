@@ -1,0 +1,18 @@
+﻿<?xml version='1.0' encoding='utf-8'?>
+<SettingsFile xmlns="http://schemas.microsoft.com/VisualStudio/2004/01/settings" CurrentProfile="(Default)" GeneratedClassNamespace="Read_cXML_Invoices.Properties" GeneratedClassName="Settings">
+  <Profiles />
+  <Settings>
+    <Setting Name="Read_cXML_Invoices_PrdAutoPostDoc_AutoPostDocument" Type="(Web Service URL)" Scope="Application">
+      <Value Profile="(Default)">http://172.16.25.80:7047/DynamicsNAV90/WS/Government%20Scientific%20Source/Codeunit/AutoPostDocument</Value>
+    </Setting>
+    <Setting Name="Read_cXML_Invoices_PrdPurchaseOrder_PurchaseOrder_Service" Type="(Web Service URL)" Scope="Application">
+      <Value Profile="(Default)">http://172.16.25.80:7047/DynamicsNAV90/WS/Government%20Scientific%20Source/Page/PurchaseOrder</Value>
+    </Setting>
+    <Setting Name="Read_cXML_Invoices_DevZAutoPostDoc_AutoPostDocument" Type="(Web Service URL)" Scope="Application">
+      <Value Profile="(Default)">http://172.16.25.121:7047/DynamicsNAV90/WS/Government%20Scientific%20Source/Codeunit/AutoPostDocument</Value>
+    </Setting>
+    <Setting Name="Read_cXML_Invoices_DevZPurchaseOrder_PurchaseOrder_Service" Type="(Web Service URL)" Scope="Application">
+      <Value Profile="(Default)">http://172.16.25.121:7047/DynamicsNAV90/WS/Government%20Scientific%20Source/Page/PurchaseOrder</Value>
+    </Setting>
+  </Settings>
+</SettingsFile>

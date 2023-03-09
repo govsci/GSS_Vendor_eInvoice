@@ -203,7 +203,11 @@ namespace Read_cXML_Invoices.Classes
                 Constants.ERRORS.Add(new Error(ex, cmd, "Database", "GetEmailConfiguration"));
             }
 
-            return new EmailConfig(ConfigurationManager.AppSettings["emailDownHost"], ConfigurationManager.AppSettings["emailUsername"], ConfigurationManager.AppSettings["emailPassword"], ConfigurationManager.AppSettings["emailDomain"], ConfigurationManager.AppSettings["emailAdmin"]);
+            string emailUsername = CustomTextEncrypt.Decode(ConfigurationManager.AppSettings["emailUsername"]);
+            string password = CustomTextEncrypt.Decode(ConfigurationManager.AppSettings["emailPassword"]);
+            string domain = CustomTextEncrypt.Decode(ConfigurationManager.AppSettings["emailDomain"]);
+
+            return new EmailConfig(ConfigurationManager.AppSettings["emailDownHost"], emailUsername, password, domain, ConfigurationManager.AppSettings["emailAdmin"]);
         }
         public static List<EmailFolderConfig> GetEmailFolderConfigs()
         {

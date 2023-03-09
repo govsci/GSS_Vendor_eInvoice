@@ -5,7 +5,6 @@ using System.Text;
 using System.Threading.Tasks;
 using System.Data;
 using System.Data.SqlClient;
-using Utilities;
 using System.Configuration;
 using Electronic_Invoice_Report.Objects;
 
@@ -18,7 +17,7 @@ namespace Electronic_Invoice_Report.Classes
             SqlCommand cmd = null;
             try
             {
-                using (SqlConnection dbcon = new SqlConnection(DatabaseConnectionStrings.PrdEcomDb))
+                using (SqlConnection dbcon = new SqlConnection(Constants.DbConnectionEcommerce))
                 {
                     dbcon.Open();
                     cmd = new SqlCommand("[dbo].[Ecommerce.Get.Email.Configuration]", dbcon);

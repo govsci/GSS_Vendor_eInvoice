@@ -23,3 +23,27 @@ C:\Users\zlingelbach\source\workspace\Internal Apps\Zach Projects\Read_cXML_Invo
 C:\Users\zlingelbach\source\workspace\Internal Apps\Zach Projects\Read_cXML_Invoices\Read_cXML_Invoices\obj\Debug\Read_cXML_Invoices.csproj.CopyComplete
 C:\Users\zlingelbach\source\workspace\Internal Apps\Zach Projects\Read_cXML_Invoices\Read_cXML_Invoices\obj\Debug\Read_cXML_Invoices.exe
 C:\Users\zlingelbach\source\workspace\Internal Apps\Zach Projects\Read_cXML_Invoices\Read_cXML_Invoices\obj\Debug\Read_cXML_Invoices.pdb
+C:\Users\zlingelbach\source\git\GSS_Vendor_eInvoice\Read_cXML_Invoices\Read_cXML_Invoices\bin\Debug\Read_cXML_Invoices.exe.config
+C:\Users\zlingelbach\source\git\GSS_Vendor_eInvoice\Read_cXML_Invoices\Read_cXML_Invoices\bin\Debug\Read_cXML_Invoices.exe
+C:\Users\zlingelbach\source\git\GSS_Vendor_eInvoice\Read_cXML_Invoices\Read_cXML_Invoices\bin\Debug\Read_cXML_Invoices.pdb
+C:\Users\zlingelbach\source\git\GSS_Vendor_eInvoice\Read_cXML_Invoices\Read_cXML_Invoices\bin\Debug\ICSharpCode.SharpZipLib.dll
+C:\Users\zlingelbach\source\git\GSS_Vendor_eInvoice\Read_cXML_Invoices\Read_cXML_Invoices\bin\Debug\KwikTagSDKLibrary.DNF4.dll
+C:\Users\zlingelbach\source\git\GSS_Vendor_eInvoice\Read_cXML_Invoices\Read_cXML_Invoices\bin\Debug\Microsoft.Exchange.WebServices.Auth.dll
+C:\Users\zlingelbach\source\git\GSS_Vendor_eInvoice\Read_cXML_Invoices\Read_cXML_Invoices\bin\Debug\Microsoft.Exchange.WebServices.dll
+C:\Users\zlingelbach\source\git\GSS_Vendor_eInvoice\Read_cXML_Invoices\Read_cXML_Invoices\bin\Debug\NPOI.dll
+C:\Users\zlingelbach\source\git\GSS_Vendor_eInvoice\Read_cXML_Invoices\Read_cXML_Invoices\bin\Debug\NPOI.OOXML.dll
+C:\Users\zlingelbach\source\git\GSS_Vendor_eInvoice\Read_cXML_Invoices\Read_cXML_Invoices\bin\Debug\NPOI.OpenXml4Net.dll
+C:\Users\zlingelbach\source\git\GSS_Vendor_eInvoice\Read_cXML_Invoices\Read_cXML_Invoices\bin\Debug\NPOI.OpenXmlFormats.dll
+C:\Users\zlingelbach\source\git\GSS_Vendor_eInvoice\Read_cXML_Invoices\Read_cXML_Invoices\bin\Debug\NLog.dll
+C:\Users\zlingelbach\source\git\GSS_Vendor_eInvoice\Read_cXML_Invoices\Read_cXML_Invoices\bin\Debug\ICSharpCode.SharpZipLib.pdb
+C:\Users\zlingelbach\source\git\GSS_Vendor_eInvoice\Read_cXML_Invoices\Read_cXML_Invoices\bin\Debug\ICSharpCode.SharpZipLib.xml
+C:\Users\zlingelbach\source\git\GSS_Vendor_eInvoice\Read_cXML_Invoices\Read_cXML_Invoices\bin\Debug\Microsoft.Exchange.WebServices.pdb
+C:\Users\zlingelbach\source\git\GSS_Vendor_eInvoice\Read_cXML_Invoices\Read_cXML_Invoices\bin\Debug\Microsoft.Exchange.WebServices.xml
+C:\Users\zlingelbach\source\git\GSS_Vendor_eInvoice\Read_cXML_Invoices\Read_cXML_Invoices\bin\Debug\Microsoft.Exchange.WebServices.Auth.pdb
+C:\Users\zlingelbach\source\git\GSS_Vendor_eInvoice\Read_cXML_Invoices\Read_cXML_Invoices\bin\Debug\Microsoft.Exchange.WebServices.Auth.xml
+C:\Users\zlingelbach\source\git\GSS_Vendor_eInvoice\Read_cXML_Invoices\Read_cXML_Invoices\obj\Debug\Read_cXML_Invoices.csproj.AssemblyReference.cache
+C:\Users\zlingelbach\source\git\GSS_Vendor_eInvoice\Read_cXML_Invoices\Read_cXML_Invoices\obj\Debug\Read_cXML_Invoices.csproj.SuggestedBindingRedirects.cache
+C:\Users\zlingelbach\source\git\GSS_Vendor_eInvoice\Read_cXML_Invoices\Read_cXML_Invoices\obj\Debug\Read_cXML_Invoices.csproj.CoreCompileInputs.cache
+C:\Users\zlingelbach\source\git\GSS_Vendor_eInvoice\Read_cXML_Invoices\Read_cXML_Invoices\obj\Debug\Read_cXML_Invoices.csproj.CopyComplete
+C:\Users\zlingelbach\source\git\GSS_Vendor_eInvoice\Read_cXML_Invoices\Read_cXML_Invoices\obj\Debug\Read_cXML_Invoices.exe
+C:\Users\zlingelbach\source\git\GSS_Vendor_eInvoice\Read_cXML_Invoices\Read_cXML_Invoices\obj\Debug\Read_cXML_Invoices.pdb

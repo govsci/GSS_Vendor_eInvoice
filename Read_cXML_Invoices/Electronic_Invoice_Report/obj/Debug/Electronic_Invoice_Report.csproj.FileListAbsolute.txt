@@ -1,0 +1,3 @@
+C:\Users\zlingelbach\source\git\GSS_Vendor_eInvoice\Read_cXML_Invoices\Electronic_Invoice_Report\obj\Debug\Electronic_Invoice_Report.csproj.AssemblyReference.cache
+C:\Users\zlingelbach\source\git\GSS_Vendor_eInvoice\Read_cXML_Invoices\Electronic_Invoice_Report\obj\Debug\Electronic_Invoice_Report.csproj.SuggestedBindingRedirects.cache
+C:\Users\zlingelbach\source\git\GSS_Vendor_eInvoice\Read_cXML_Invoices\Electronic_Invoice_Report\obj\Debug\Electronic_Invoice_Report.csproj.CoreCompileInputs.cache
